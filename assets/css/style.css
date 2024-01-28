@@ -1,0 +1,31 @@
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: ;
+    margin: ;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Times New Roman;
+    color: aliceblue;
+}
+
+.box{ width: 900px;
+float: right;
+border: 1px solid black;
+}
+
+.box ul li {
+    width: 120px;
+    float: left;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.box ul li a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+.box ul li:hover {background-color: aqua;}
+.box ul li a:hover{color:burlywood;}
